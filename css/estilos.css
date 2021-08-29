@@ -38,13 +38,12 @@ position:inherit;
 img
 {
   display: flex;
-  width:
 }
 
 h1
 {
   display: flex;
-  margin-top: 15%;
+  margin-top: 13%;
   margin-left: auto;
   margin-right: auto;
   background: rgba(255, 255, 255, 0.7);
@@ -96,6 +95,8 @@ h3
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
+  background: white;
+  background-size: cover;
   font-family: 'Aldrich';
   font-size: 20px;
   color: black;
@@ -125,7 +126,6 @@ a:hover
   width: auto;
   height:30px;
   margin-top: 5px;
-
 }
 
 ul
