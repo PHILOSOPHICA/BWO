@@ -1,16 +1,13 @@
-*
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image:url(../img/BwOwall.png);
+  background-image: url(../img/BwOwall.png);
   background-size: cover;
   background-attachment: fixed;
 }
 
-
-.hd
-{
+.hd {
   display: flex;
   text-align: center;
   width: 100%;
@@ -19,75 +16,63 @@
   margin-top: 30px;
 }
 
-.pub
-{
+.pub {
   display: flex;
   font-family: 'Aldrich';
   font-size: 10PX;
-
 }
 
-h1
-{
+h1 {
   margin-left: auto;
   margin-right: auto;
   text-decoration: line-through;
   background: rgba(255, 255, 255, 255);
 }
 
-img
-{
+img {
   display: flex;
   width: 35%;
   margin-left: auto;
   margin-right: auto;
-
 }
 
-.Menú
-{
+.Menú {
   display: flex;
   margin-top: 50px;
   width: 100%;
 }
 
-
-ul
-{
+ul {
   text-align: center;
-  text-align:left;
-  display:block;
+  text-align: left;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   flex-wrap: wrap;
 }
 
-li
-{
+li {
   text-decoration: none;
   font-family: 'Aldrich', sans-serif;
   font-size: 120%;
   margin-top: 10px;
   width: 100%;
   display: flex;
-  background: rgba(0, 0, 0,0);
-  background: rgba(0,255,0,0.60);
+  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 255, 0, 0.60);
   flex-wrap: wrap;
 }
 
-a
-{
+a {
   text-decoration: none;
   color: white;
   display: flex;
   background: rgba(0, 0, 0, 0.90);
   margin-left: auto;
   margin-right: auto;
-
 }
 
-a:hover
-{
+a:hover {
   background: 200px;
   background-color: white;
   color: black;
@@ -95,8 +80,7 @@ a:hover
   display: flex;
 }
 
-.Main
-{
+.Main {
   display: flex;
   font-family: 'Aldrich';
   font-size: 10PX;
@@ -104,19 +88,16 @@ a:hover
   width: 10%;
   margin-left: 45%;
   margin-right: 45%;
-
 }
 
-h2
-{
+h2 {
   display: flex;
   color: black;
   text-decoration: line-through;
   background: rgba(255, 255, 255, 255);
 }
 
-h2:hover
-{
+h2:hover {
   background: black;
   width: 200%;
   color: white;
