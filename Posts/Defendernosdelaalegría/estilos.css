@@ -1,23 +1,20 @@
-*
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body
-{
+body {
   display: inline-block;
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
   background-size: cover;
   background-attachment: relative;
-  width:100%;
+  width: 100%;
   height: 100%;
 }
 
-header
-{
-  background:black;
+header {
+  background: black;
   width: 100%;
   height: 70px;
   display: flex;
@@ -26,13 +23,11 @@ header
   position: fixed;
 }
 
-p3
-{
+p3 {
   margin-left: 30px;
 }
 
-h1
-{
+h1 {
   color: white;
   font-family: 'Aldrich';
   font-size: 20px;
@@ -41,14 +36,12 @@ h1
   margin-right: auto;
 }
 
-.Datos
-{
+.Datos {
   display: block;
   color: black;
 }
 
-h2
-{
+h2 {
   font-family: "Aldrich";
   font-size: 40px;
   margin-top: 100px;
@@ -56,8 +49,7 @@ h2
   color: #212124;
 }
 
-h3
-{
+h3 {
   color: Black;
   margin-left: 30px;
   font-family: 'IBM Plex Mono', monospace;
@@ -65,8 +57,7 @@ h3
   margin-top: 5px;
 }
 
-h4
-{
+h4 {
   color: black;
   font-family: "Aldrich";
   font-size: 15px;
@@ -74,11 +65,10 @@ h4
   margin-top: 20px;
 }
 
-img
-{
+img {
   border-style: outset;
   border-color: black grey grey Black;
-  border-width:1px;
+  border-width: 1px;
   width: 70%;
   margin-top: 50px;
   margin-left: auto;
@@ -86,8 +76,7 @@ img
   display: flex;
 }
 
-.Intro
-{
+.Intro {
   text-align: justify;
   width: 70%;
   margin-top: 70px;
@@ -97,8 +86,7 @@ img
   color: Black;
 }
 
-.Cuerpo
-{
+.Cuerpo {
   text-align: justify;
   width: 70%;
   margin-top: 70px;
@@ -108,8 +96,7 @@ img
   color: Black;
 }
 
-.Nota
-{
+.Nota {
   width: 70%;
   height: 60%;
   margin-top: 50px;
@@ -125,8 +112,7 @@ img
   text-align: justify;
 }
 
-.Peroratio
-{
+.Peroratio {
   text-align: justify;
   width: 70%;
   margin-top: 70px;
@@ -136,8 +122,7 @@ img
   color: Black;
 }
 
-.Cierre
-{
+.Cierre {
   text-align: justify;
   width: 70%;
   margin-top: 70px;
@@ -148,8 +133,7 @@ img
   margin-bottom: 100px;
 }
 
-.Links
-{
+.Links {
   text-align: justify;
   width: 70%;
   margin-top: 10px;
@@ -160,8 +144,7 @@ img
   margin-bottom: 150px;
 }
 
-ul
-{
+ul {
   font-family: 'Roboto';
   font-size: 20px;
   list-style: armenian;
@@ -169,8 +152,7 @@ ul
   margin-right: 30%;
 }
 
-p
-{
+p {
   line-height: 20px;
   border-color: black;
   font-family: 'Roboto';
@@ -178,8 +160,7 @@ p
   line-height: 30px;
 }
 
-p1
-{
+p1 {
   line-height: 20px;
   border-color: black;
   font-family: 'Roboto';
@@ -189,21 +170,20 @@ p1
   margin-right: 30px;
 }
 
-.video
-{
+.video {
   margin-top: 50px;
   display: flex;
   background: #C9CCD3;
- background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
- background-blend-mode: lighten;;
+  background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%);
+  background-blend-mode: lighten;
+  ;
   width: 70%;
   height: 400px;
   margin-left: auto;
   margin-right: auto;
 }
 
-iframe
-{
+iframe {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -214,33 +194,28 @@ iframe
   border-right: white;
 }
 
-
-a
-{
- font-family: 'Aldrich';
- font-size: 20px;
- color: blue;
- text-decoration: none;
- text-align: center;
- margin-left: auto;
- margin-right: auto; 
+a {
+  font-family: 'Aldrich';
+  font-size: 20px;
+  color: blue;
+  text-decoration: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-footer
-{
+footer {
   height: 50px;
   background: black;
-  display:flex;
+  display: flex;
 }
 
-h5
-{
-font-family: "Roboto";
-display: flex;
-font-size: 15px;
-color: white;
-margin-top: 15px;
-margin-left: auto;
-margin-right: auto;
+h5 {
+  font-family: "Roboto";
+  display: flex;
+  font-size: 15px;
+  color: white;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }

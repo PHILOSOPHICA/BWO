@@ -1,70 +1,57 @@
-*
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
-#particles-js
-{
+#particles-js {
   width: 100%;
   height: 100%;
   position: fixed;
   display: flex;
   background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
   background-attachment: fixed;
-
 }
 
-#Cuerpo
-{
+#Cuerpo {
   display: flex;
   position: relative;
   margin: 0 auto;
   width: 100%;
   height: 100%;
   align-content: center;
-
 }
 
-#Logo
-{
-display: flex;
-position:inherit;
-
+#Logo {
+  display: flex;
+  position: inherit;
 }
 
-img
-{
+img {
   display: flex;
 }
 
-h1
-{
+h1 {
   display: flex;
   margin-top: 13%;
   margin-left: auto;
   margin-right: auto;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.9);
   background-size: auto;
   font-family: 'Aldrich', sans-serif;
   font-size: 100px;
   position: relative;
   border-radius: 5px;
   border-style: solid;
-
 }
 
-#Sub
-{
+#Sub {
   display: flex;
   position: relative;
   color: black;
 }
 
-#Hypothesis
-{
+#Hypothesis {
   display: flex;
   position: relative;
   color: white;
@@ -76,8 +63,7 @@ h1
   border-width: thin;
 }
 
-h2
-{
+h2 {
   display: flex;
   margin-top: 1%;
   margin-left: auto;
@@ -89,8 +75,7 @@ h2
   color: white;
 }
 
-h3
-{
+h3 {
   display: flex;
   margin-top: 5%;
   margin-left: auto;
@@ -102,61 +87,56 @@ h3
   color: black;
 }
 
-
-a
-{
+a {
   font-family: 'Aldrich', sans-serif;
   font-size: 30px;
   color: #00FF00;
   display: inline-flex;
   text-decoration: none;
-  background: rgba(163,50,170,.80);
+  background: rgba(163, 50, 170, .80);
   list-style: none;
   margin-top: 3px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
-a:hover
-{
+a:hover {
   background: white;
   background-size: auto;
   color: black;
   width: auto;
-  height:30px;
+  height: 30px;
   margin-top: 5px;
 }
 
-ul
-{
+ul {
   display: inline-flex;
   margin-left: 28px;
   list-style: square;
   animation: cambiar 30s infinite;
-
 }
 
-li
-{
+li {
   margin-left: 100px;
   margin-right: 50px;
-
 }
 
-#sec
-{
-margin-left: auto;
-margin-right: auto;
-text-align: center;
+#sec {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
-section
-{
+section {
   display: inline-flex;
   position: relative;
   margin-top: 20px;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.aud
+{
+  text-align: center;
 }
