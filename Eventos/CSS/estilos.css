@@ -264,6 +264,7 @@ p {
   background-position: center;
   margin-top: 20%;
   display: flex;
+  width:80%;
   height: 500px;
   margin-bottom: 0%;
 }
